@@ -15,9 +15,9 @@ phases:
   post_build:
     commands:
       - echo Build completed. Preparing for deployment...
-      - cp target/*.jar application.jar
+      - cp target/*.jar app.jar
 artifacts:
   files:
     - Procfile
-    - application.jar
+    - app.jar
     - '**/*'
